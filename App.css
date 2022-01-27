@@ -1,0 +1,278 @@
+.App {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  background-color: #393942;
+
+}
+
+
+
+.post {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.post:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.post .title {
+  flex: 20%;
+  border-bottom: 1px solid lightgray;
+  background-color: dodgerblue;
+  display: grid;
+  place-content: center;
+  color: white;
+}
+
+.post .body {
+  flex: 60%;
+  display: grid;
+  place-content: center;
+}
+
+.post .footer {
+  flex: 20%;
+  border-top: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  background-color: dodgerblue;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* CREATE POST PAGE CSS */
+
+.Header{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  margin-left:250px;
+  color: white;
+  font-weight: 750;
+}
+
+.createRegister {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formContainerRegister {
+  color:white;
+  width: 200px;
+  margin-left: 400px;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 2px solid rgb(29, 29, 29);
+  border-radius: 25px;
+}
+
+.formContainerRegister #inputPassword {
+  background-color: #2b2b2b;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border: 2px solid rgb(9, 82, 155);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.formContainerRegister button {
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: rgb(9, 82, 155);
+  border-radius: 5px;
+  color: white;
+}
+
+.formContainerRegister button:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}
+
+span {
+  color: red;
+}
+
+.Link {
+
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 750;
+  
+
+}
+
+
+
+
+
+.HeaderLogin{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  margin-left:250px;
+  color: white;
+  font-weight: 750;
+}
+
+.createLogin {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formContainerLogin {
+  color:white;
+  width: 200px;
+  margin-left: 400px;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 2px solid rgb(29, 29, 29);
+  border-radius: 25px;
+}
+
+.formContainerLogin #h {
+  background-color: #2b2b2b;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border: 2px solid rgb(9, 82, 155);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.formContainerLogin button {
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: rgb(9, 82, 155);
+  border-radius: 5px;
+  color: white;
+}
+
+.formContainerLogin button:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}
+
+
+
+.HeaderNew {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 100px;
+  margin-right:1600px;
+  color: white;
+  font-weight: 750;
+  
+}
+
+
+
+.LernkarteFront {
+  background-color: rgb(29, 28, 39);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  font-weight: 750;
+  
+  height: 500px;
+  width: 1500px;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+
+  border: 20px solid rgb(41, 41, 44);
+  border-radius: 20px;
+
+  text-align: center;
+  
+  
+}
+
+
+
+.BottomNew label{
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+  font-family: Arial, Helvetica, italic;
+  font-size: 20px;
+  color: white;
+  font-weight: 750;
+}
+
+.BottomNew button {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+  font-size: 20px;
+  height: 50px;
+  border: none;
+  background-color: rgb(9, 82, 155);
+  border-radius: 5px;
+  color: white;
+}
+
+.BottomNew button:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}
